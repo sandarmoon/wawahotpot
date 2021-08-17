@@ -1,0 +1,32 @@
+/*.menu-card{
+
+	transition: width 2s, height 4s;
+}
+
+.menu-card:hover{
+	transform: 
+	width: 400px;
+	height: 400px;
+}*/
+
+.my-custom-scrollbar {
+position: relative;
+height: 300px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+
+@font-face{
+	font-family: 'myFont';
+	src:url("{{asset('template/asset/Indie_Flower/IndieFlower-Regular.ttf')}");
+}
+.shusha{
+	font-family: 'Dancing Script', cursive;
+}
+
+.shusha-backend{
+	/*color: linear-gradient(87deg, #f5365c 0, #f56036 100%) !important;*/
+	color:#f5484c;
+}
